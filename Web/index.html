@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогнозное значение параметра «Соотношение матрица-наполнитель»</title>
+</head>
+<body>
+
+    <table
+    border="1"
+    bordercolor = "#FAEBD7"
+    align="center"
+    width="800px">
+    
+            <tr>
+              <td>
+                <table
+                  border="0"
+                  bgcolor="#FAEBD7"
+                  align="center"
+                  cellpadding="1"
+                  width="100%"
+                   >
+                   <tr>
+                    <td>
+                      <table
+                        border="0"
+                        bgcolor="#F5F5F5"
+                        align="center"
+                        cellpadding="5"
+                        width="100%" >
+                        <tr>
+                          <th align="center">
+                           <font color="blue" size="4">
+                              Прогнозное значение параметра «Соотношение матрица-наполнитель»
+                           </font>
+                          </th>
+
+                      </tr>
+                      </table>
+                    </td>
+                  </tr>               
+
+                    <tr>
+                         <td>
+                           <table
+                             border="0"
+                             bgcolor="#F5F5F5"
+                             align="center"
+                             cellpadding="5"
+                             width="100%"
+                             >
+                             <tr>
+                               <th align="center">
+                                <font color="blue" size="4">
+                                   {% if message %}
+                                   {{ message }}
+                                    {% endif %}
+                                </font>
+                               </th>
+
+                           </tr>
+                           </table>
+                         </td>
+                    </tr>
+
+
+                    <form action="" method="post">
+                    <tr>
+                         <td>
+                           <table              
+                            border="0"
+                           bgcolor="#F5F5F5"
+                           align="center"
+                           cellpadding="5"
+                           width="100%">
+                             <tr>
+                               <th width="30%" align="left">
+                                   <label for="var1">Плотность, кг/м3</label>
+                               </th>
+                               <th align="left" cellpadding="5">
+                                   <input type="text" name="Плотность, кг/м3">
+                               </th>
+                           </tr>
+                           <tr>
+                              <th width="30%" align="left">
+                                   <label for="var2">модуль упругости, ГПа</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="модуль упругости, ГПа">
+                              </th>
+                          </tr>
+
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var3">Количество отвердителя, м.%</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Количество отвердителя, м.%">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var4">Содержание эпоксидных групп,%_2</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Содержание эпоксидных групп,%_2">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var5">Температура вспышки, С_2</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Температура вспышки, С_2">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var6">Поверхностная плотность, г/м2</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Поверхностная плотность, г/м2">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var9">Потребление смолы, г/м2</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Потребление смолы, г/м2">
+                              </th>
+                          </tr>
+
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var10">Угол нашивки, град</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Угол нашивки, град">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var11">Шаг нашивки</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Шаг нашивки">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+                                   <label for="var12">Плотность нашивки</label>
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="text" name="Плотность нашивки">
+                              </th>
+                          </tr>
+                          <tr>
+                              <th width="30%" align="left">
+
+                              </th>
+                              <th align="left" cellpadding="5">
+                                   <input type="submit">
+                              </th>
+                          </tr>
+                         </tr>
+                    </form>
+
+                </table>
+              </td>
+            </tr>
+    
+    </table>
+
+</body>
+</html>
